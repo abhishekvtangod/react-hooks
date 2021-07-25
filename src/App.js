@@ -1,10 +1,20 @@
 import React from 'react';
 
-import UseStateExample from './components/use-state-example/use-state-example.component';
 
 import './App.css';
+import Post from './components/post/post.component';
+import UseEffectExample from './components/user-effect/use-effect';
+import User from './components/user/user.component';
 
 const App = props => {
-  return <UseStateExample/>;
+  return (
+  <div className='App'>
+    {/* <UseStateExample /> */}
+    {/* <UseEffectExample /> */}
+    {/* <User userId = {5} />
+    <Post postId = {3} /> */}
+    
+  </div>
+  );
 }
 export default App;
